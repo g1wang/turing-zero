@@ -1,0 +1,8 @@
+info:
+  app: user-data-service
+  version: v1.0.0
+server:
+  port: 21080
+spring:
+  application:
+    name: user-data-service

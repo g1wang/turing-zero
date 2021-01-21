@@ -1,0 +1,35 @@
+info:
+  app: service-turbine
+  version: v1.0.0
+server:
+  port: 23080
+spring:
+  application:
+    name: service-turbine
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
+turbine:
+  aggregator:
+    cluster-config: default
+  # service
+  app-config: USER-SERVICE,DEMO-SERVICE
+  #
+  cluster-name-expression: new String("default")
+  combine-host-port: true
+
+  instanceUrlSuffix: /hystrix.stream
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:20080/eureka/
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: "*"

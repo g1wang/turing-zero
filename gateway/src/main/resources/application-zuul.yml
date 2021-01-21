@@ -1,0 +1,13 @@
+zuul:
+  routes:
+    userapi:
+      id: /user/**
+      service-id: USER-SERVICE
+#    useraataapi:
+#      path: /userdata/**
+#      serviceId: USER-DATA-SERVICE
+    demoapi:
+      id: /demo/**
+      service-id: DEMO-SERVICE
+
+  prefix: /v1

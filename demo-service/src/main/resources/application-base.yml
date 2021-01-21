@@ -1,0 +1,12 @@
+info:
+  app: demo-service
+  version: v1.0.0
+server:
+  port: 8091
+spring:
+  application:
+    name: demo-service
+
+feign:
+  hystrix:
+    enabled: true

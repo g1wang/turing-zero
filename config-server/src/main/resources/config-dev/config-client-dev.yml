@@ -1,0 +1,3 @@
+whoami: fromc config server 20
+server:
+  port: 26080

@@ -1,0 +1,12 @@
+info:
+  app: user-service
+  version: v1.0.0
+server:
+  port: 22080
+spring:
+  application:
+    name: user-service
+
+feign:
+  hystrix:
+    enabled: true

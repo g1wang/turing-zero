@@ -1,0 +1,44 @@
+info:
+  app: config-server
+  version: v1.0.0
+server:
+  port: 25080
+
+#spring:
+#  cloud:
+#    config-dev:
+#      server:
+#        git:
+#          uri: https://github.com/resilience4j/resilience4j-spring-cloud2-demo
+#          default-label: config-dev
+
+#spring.cloud.config-dev-dev.server.native.searchLocations: file:///${user.home}/Documents/projects/turing/config-dev-dev
+spring:
+  application:
+    name: config-server
+  profiles:
+    #读取本地配置
+    active: native,eureka
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: classpath:/config-dev
+    bus:
+      destination: config
+
+  #bus mq
+  rabbitmq:
+    addresses: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
+
+#bus
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
