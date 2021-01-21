@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+/gateway/logs/
+/logs/
+/demo-service/logs/
+/user-data-service/logs/
+/user-service/logs/
+/demo-data-service/logs/
