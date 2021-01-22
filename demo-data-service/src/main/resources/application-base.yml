@@ -1,8 +1,0 @@
-info:
-  app: demo-data-service
-  version: v1.0.0
-server:
-  port: 8081
-spring:
-  application:
-    name: demo-data-service
