@@ -12,6 +12,9 @@ netflix组件不更了，大部分组件都可以替换
 - [SC5.Turbine集群监控](SC5.Turbine集群监控.md)
 - [SC5.网关Zuul](SC5.网关Zuul.md)
 - [SC6.配置中心Config](SC6.配置中心Config.md)
+- [SC7.数据链路追踪](SC7.数据链路追踪.md)
+- [SC8.服务管理监控Admin](SC8.服务管理监控Admin.md)
+
 
 ### 数据
 - [mybatis集成1-集成](Plus2.Mybatis集成1-集成.md)

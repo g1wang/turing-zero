@@ -10,3 +10,13 @@ spring:
 feign:
   hystrix:
     enabled: true
+
+##暴露actuator的所有端口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

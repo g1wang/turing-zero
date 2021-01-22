@@ -1,0 +1,27 @@
+info:
+  app: admin-service
+  version: v1.0.0
+server:
+  port: 29080
+spring:
+  application:
+    name: admin-service
+  security:
+    user:
+      name: "admin"
+      password: "admin"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+eureka:
+  instance:
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
+
