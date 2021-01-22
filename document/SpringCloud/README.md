@@ -14,6 +14,7 @@ netflix组件不更了，大部分组件都可以替换
 - [SC6.配置中心Config](SC6.配置中心Config.md)
 - [SC7.数据链路追踪](SC7.数据链路追踪.md)
 - [SC8.服务管理监控Admin](SC8.服务管理监控Admin.md)
+- [SC9.Security.md](SC9.Security.md)
 
 
 ### 数据
