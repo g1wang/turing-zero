@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: zipkin-service
+  profiles:
+    active: base,eureka
+info:
+  app: zipkin-service
+  version: v1.0.0
+
+
+

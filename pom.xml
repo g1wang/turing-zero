@@ -24,8 +24,6 @@
         <module>user-data-service</module>
         <module>user-service</module>
         <module>service-turbine</module>
-        <module>demo-data-service</module>
-        <module>demo-service</module>
     </modules>
 
 

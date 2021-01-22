@@ -1,10 +1,10 @@
-package com.stars.demoservice;
+package com.stars.zipkinservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoServiceApplicationTests {
+class ZipkinServiceApplicationTests {
 
     @Test
     void contextLoads() {

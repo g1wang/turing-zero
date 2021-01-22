@@ -8,11 +8,11 @@
         <version>1.0.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.starts</groupId>
-    <artifactId>gateway</artifactId>
+    <groupId>com.stars</groupId>
+    <artifactId>zipkin-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gateway</name>
-    <description>gateway zuul</description>
+    <name>zipkin-client</name>
+    <description>Demo project for zipkin-client</description>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -24,18 +24,12 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-zipkin</artifactId>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

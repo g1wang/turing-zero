@@ -6,8 +6,7 @@ zuul:
 #    useraataapi:
 #      path: /userdata/**
 #      serviceId: USER-DATA-SERVICE
-    demoapi:
-      id: /demo/**
-      service-id: DEMO-SERVICE
-
+    zipkinclientapi:
+      id: /zipkinclient/**
+      service-id: zipkin-client
   prefix: /v1

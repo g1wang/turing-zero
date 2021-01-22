@@ -1,0 +1,17 @@
+info:
+  app: zipkin-client
+  version: v1.0.0
+server:
+  port: 28080
+
+spring:
+  application:
+    name: zipkin-client
+  # zipkin  sleuth
+  zipkin:
+    base-url: http://ZIPKIN-SERVICE
+    discovery-client-enabled: true
+
+  sleuth:
+    sampler:
+      probability: 0.1

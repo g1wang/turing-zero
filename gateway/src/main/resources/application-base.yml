@@ -6,3 +6,11 @@ server:
 spring:
   application:
     name: gateway
+
+  # sleuth zipkin
+  sleuth:
+    sampler:
+      probability: 0.1
+  zipkin:
+    base-url: http://ZIPKIN-SERVICE
+    discovery-client-enabled: true
