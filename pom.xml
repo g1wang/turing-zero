@@ -24,6 +24,8 @@
         <module>user-data-service</module>
         <module>user-service</module>
         <module>service-turbine</module>
+        <module>zipkin-service</module>
+        <module>zipkin-client</module>
     </modules>
 
 
