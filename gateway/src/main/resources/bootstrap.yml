@@ -1,0 +1,25 @@
+info:
+  app: gateway
+  version: v1.0.0
+server:
+  port: 24080
+
+spring:
+  application:
+    name: gateway
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-server
+      fail-fast: true
+    bus:
+      destination: config
+  profiles:
+    active: dev,eureka
+  rabbitmq:
+    addresses: localhost
+    port: 5672
+    username: guest
+    password: guest
+

@@ -37,6 +37,16 @@
 - ```
   run()
   ```
+### 动态路由
+
+- 结合Spring Cloud Config实现路由配置动态加载
+```
+@SpringBootApplication
+@EnableEurekaClient
+@EnableZuulProxy
+@RefreshScope
+public class GatewayApplication {
+```
   
 ### project
 

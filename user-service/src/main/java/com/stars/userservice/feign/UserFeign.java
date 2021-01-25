@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
-@FeignClient(value = "USER-DATA-SERVICE", fallbackFactory = UserFallbackFactory.class)
+@FeignClient(value = "GATEWAY/v1/userdataapi", fallbackFactory = UserFallbackFactory.class)
 public interface UserFeign {
 
     @PostMapping("/user")

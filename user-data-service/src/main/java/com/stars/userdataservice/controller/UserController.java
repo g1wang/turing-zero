@@ -14,7 +14,7 @@ class UserController {
     @Autowired
     UserService userService;
 
-    @PostMapping(value = "/users")
+    @PostMapping(value = "/user/s")
     public String saveUsers(@RequestBody List<User> users) {
 
         JSONObject result = new JSONObject();

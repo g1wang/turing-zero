@@ -1,0 +1,12 @@
+zuul:
+  routes:
+    userapi:
+      path: /userapi/**
+      service-id: USER-SERVICE
+    userdataapi:
+      path: /userdataapi/**
+      serviceId: USER-DATA-SERVICE
+    zipkinclientapi:
+      path: /zipkinclientapi/**
+      service-id: zipkin-client
+  prefix: /v1
