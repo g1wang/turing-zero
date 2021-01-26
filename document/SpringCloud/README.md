@@ -15,6 +15,7 @@ netflix组件不更了，大部分组件都可以替换
 - [SC7.数据链路追踪](SC7.数据链路追踪.md)
 - [SC8.服务管理监控Admin](SC8.服务管理监控Admin.md)
 - [SC9.Security.md](SC9.Security.md)
+- [SC10.SpringCloudStream](SC10.SpringCloudStream.md)
 
 
 ### 数据

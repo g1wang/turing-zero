@@ -1,0 +1,19 @@
+spring:
+  #mq
+  rabbitmq:
+    addresses: localhost
+    port: 5672
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+        #channel
+        cbanana1:
+          destination: ebanana1 #exchange
+        cbanana2:
+          destination: ebanana2 #exchange
+        cbanana3:
+          destination: ebanana1 #exchange
+        cbanana4:
+          destination: ebanana2
