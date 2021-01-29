@@ -50,4 +50,4 @@ public class GatewayApplication {
   
 ### project
 
-- [zuul](../../gateway/readme.md)
+- [zuul](../../gateway)

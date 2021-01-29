@@ -5,9 +5,9 @@
 ### Sleuth
 - Spring Cloud Sleuth provides Spring Boot auto-configuration for distributed tracing 
 - Zipkin 数据链路追踪可视化
-- [zipkin server](../../zipkin-service/readme.md)
+- [zipkin server](../../zipkin-service)
 
-- [zipkinclient](../../zipkin-client/readme.md)
+- [zipkinclient](../../zipkin-client)
 ```
         <!--  admin client -->
         <dependency>
