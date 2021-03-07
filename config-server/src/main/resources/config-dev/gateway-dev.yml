@@ -9,4 +9,8 @@ zuul:
     zipkinclientapi:
       path: /zipkinclientapi/**
       service-id: zipkin-client
+    redisssessionapi:
+      path: /redissessionapi/**
+      service-id: redis-session
+      sensitiveHeaders: "*"
   prefix: /v1
